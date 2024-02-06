@@ -179,7 +179,7 @@ h1 {
   color: rgb(173, 24, 24);
 }
 
-.project__link_btn:hover {
+.project__link-btn:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(173, 24, 24);
   transition: 0.3s ease-in-out;
