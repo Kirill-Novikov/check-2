@@ -12,8 +12,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   max-width: 1180px;
-  background: #ffffff;
-  width: 100%;
 }
 
 h1 {
@@ -65,7 +63,7 @@ h1 {
 /* -------------------hero---------------------- */
 
 .hero {
-  padding-bottom: 150px;
+  margin-bottom: 150px;
 }
 
 .hero__title {
@@ -74,7 +72,6 @@ h1 {
 }
 
 .hero__img {
-  padding: 0 0 40px 40px;
   max-width: 100%;
   min-height: 500px;
   position: relative;
@@ -86,6 +83,7 @@ h1 {
 .hero__text {
   max-width: 40%;
   position: absolute;
+  left: 40px;
   bottom: 40px;
   font-size: 20px;
   font-weight: 400;
@@ -96,7 +94,7 @@ h1 {
 /* ----------------------about-------------- */
 
 .about {
-  padding-bottom: 150px;
+  margin-bottom: 150px;
 }
 
 .about__title {
@@ -108,7 +106,8 @@ h1 {
 }
 
 .about__text {
-  margin-bottom: 34px;
+  margin-bottom: 32px;
+  max-width: 1110px;
   font-size: 45px;
   font-weight: 400;
   line-height: 135%;
@@ -132,7 +131,11 @@ h1 {
 /* --------------------project-------------------- */
 
 .project {
-  padding-bottom: 148px;
+  margin-bottom: 148px;
+}
+
+.project__item {
+  margin-bottom: 89px;
 }
 
 .project__title {
@@ -143,9 +146,16 @@ h1 {
   color: rgb(18, 18, 18);
 }
 
+.project__wrapper-img {
+  margin-bottom: 16px;
+  width: 100%;
+  height: 450px;
+}
+
 .project__img {
-  margin-bottom: 15px;
-  max-width: 100%;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
 }
 
 .project__subtitle {
@@ -163,7 +173,7 @@ h1 {
   color: rgb(173, 24, 24);
 }
 
-.project__contant {
+.project__list {
   margin-bottom: 88px;
 }
 
@@ -189,19 +199,21 @@ h1 {
 
 .services {
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 89px;
+  background: rgb(18, 18, 18);
 }
 
 .services__container {
   background: rgb(18, 18, 18);
 }
 
-.services {
-  background: rgb(18, 18, 18);
+.services__item {
+  margin-bottom: 60px;
 }
 
-.services__contant:not(:last-child) {
-  margin-bottom: 60px;
+.services__wrapper-img {
+  width: 100%;
+  height: 270px;
 }
 
 .services__title {
@@ -212,9 +224,12 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
+.services__wrapper-img {
+  margin-bottom: 16px;
+}
+
 .services__img {
-  margin-bottom: 13px;
-  max-width: 100%;
+  width: 100%;
 }
 
 .services__subtitle {
