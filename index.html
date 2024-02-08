@@ -38,7 +38,7 @@
     </header>
     <main class="main">
       <section class="hero">
-        <div class="hero__container container">
+        <div class="container">
           <h1 class="hero__title">
             Современные и стильные интерьеры для комфортной жизни
           </h1>
@@ -51,7 +51,7 @@
         </div>
       </section>
       <section class="about">
-        <div class="about__container container">
+        <div class="container">
           <h2 class="about__title">О НАС</h2>
           <p class="about__text">
             Студия основана в 2011 году. Полностью отдаемся проектированию и
@@ -65,83 +65,103 @@
         </div>
       </section>
       <section class="project">
-        <div class="project__container container">
-          <div class="project__contant">
-            <h2 class="project__title">проекты</h2>
-            <img
-              class="project__img"
-              src="img/pravoberezhny-img.png"
-              alt="ЖК ПРАВОБЕРЕЖНЫЙ"
-            />
-            <h3 class="project__subtitle">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
-            <a class="project__link" href="#">Подробнее →</a>
-          </div>
-          <div class="project__contant">
-            <img
-              class="project__img"
-              src="img/norwegian-img.png"
-              alt="ЖК НОРВЕЖСКИЙ ПАРК"
-            />
-            <h3 class="project__subtitle">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
-            <a class="project__link" href="#">Подробнее →</a>
-          </div>
-          <div class="project__contant">
-            <img
-              class="project__img"
-              src="img/sosnovsky-img.png"
-              alt="ЖК СОСНОВСКИЕ ОЗЕРА"
-            />
-            <h3 class="project__subtitle">
-              ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
-            </h3>
-            <a class="project__link" href="#">Подробнее →</a>
-          </div>
-          <div class="project__btn">
-            <a class="project__link-btn" href="#">Смотреть все проекты</a>
-          </div>
+        <div class="container">
+          <h2 class="project__title">проекты</h2>
+          <ul class="project__list">
+            <li class="project__item">
+              <div class="project__wrapper-img">
+                <img
+                  class="project__img"
+                  src="img/pravoberezhny-img.png"
+                  alt="ЖК ПРАВОБЕРЕЖНЫЙ"
+                />
+              </div>
+              <h3 class="project__subtitle">
+                ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023
+              </h3>
+              <a class="project__link" href="#">Подробнее →</a>
+            </li>
+            <li class="project__item">
+              <div class="project__wrapper-img">
+                <img
+                  class="project__img"
+                  src="img/norwegian-img.png"
+                  alt="ЖК НОРВЕЖСКИЙ ПАРК"
+                />
+              </div>
+              <h3 class="project__subtitle">
+                ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023
+              </h3>
+              <a class="project__link" href="#">Подробнее →</a>
+            </li>
+            <li class="project__item">
+              <div class="project__wrapper-img">
+                <img
+                  class="project__img"
+                  src="img/sosnovsky-img.png"
+                  alt="ЖК СОСНОВСКИЕ ОЗЕРА"
+                />
+              </div>
+              <h3 class="project__subtitle">
+                ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
+              </h3>
+              <a class="project__link" href="#">Подробнее →</a>
+            </li>
+          </ul>
+          <a class="project__link-btn" href="#">Смотреть все проекты</a>
         </div>
       </section>
       <section class="services">
-        <div class="services__container container">
+        <div class="container">
           <h3 class="services__title">Услуги</h3>
-          <div class="services__contant">
-            <img
-              class="services__img"
-              src="img/section-services1.png"
-              alt="Планировочное решение"
-            />
-            <h3 class="services__subtitle">
-              Планировочное решение — от 2500₽/м²
-            </h3>
-          </div>
-          <div class="services__contant">
-            <img
-              class="services__img"
-              src="img/section-services2.png"
-              alt="Дизайн-проект"
-            />
-            <h3 class="services__subtitle">Дизайн-проект — от 3000₽/м²</h3>
-          </div>
-          <div class="services__contant">
-            <img
-              class="services__img"
-              src="img/section-services3.png"
-              alt="Авторский надзор"
-            />
-            <h3 class="services__subtitle">
-              Авторский надзор — от 30 000₽ в месяц
-            </h3>
-          </div>
-          <div class="services__contant">
-            <img
-              class="services__img"
-              src="img/section-services4.png"
-              alt="Комплектация"
-            />
-            <h3 class="services__subtitle">
-              Комплектация — 5% от стоимости спецификации
-            </h3>
-          </div>
+          <ul class="services__list">
+            <li class="services__item">
+              <div class="services__wrapper-img">
+                <img
+                  class="services__img"
+                  src="img/section-services1.png"
+                  alt="Планировочное решение"
+                />
+              </div>
+              <h3 class="services__subtitle">
+                Планировочное решение — от 2500₽/м²
+              </h3>
+            </li>
+            <li class="services__item">
+              <div class="services__wrapper-img">
+                <img
+                  class="services__img"
+                  src="img/section-services2.png"
+                  alt="Дизайн-проект"
+                />
+              </div>
+              <h3 class="services__subtitle">Дизайн-проект — от 3000₽/м²</h3>
+            </li>
+            <li class="services__item">
+              <div class="services__wrapper-img">
+                <img
+                  class="services__img"
+                  src="img/section-services3.png"
+                  alt="Авторский надзор"
+                />
+              </div>
+              <h3 class="services__subtitle">
+                Авторский надзор — от 30 000₽ в месяц
+              </h3>
+            </li>
+            <li class="services__item">
+              <div class="services__wrapper-img">
+                <img
+                  class="services__img"
+                  src="img/section-services4.png"
+                  alt="Комплектация"
+                />
+              </div>
+              <h3 class="services__subtitle">
+                Комплектация — 5% от стоимости спецификации
+              </h3>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
